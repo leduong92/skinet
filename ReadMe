@@ -1,0 +1,6 @@
+--remove migrations
+dotnet ef migrations remove -p Infrastructure -s API
+--drop databse
+dotnet ef database drop -p Infrastructure -s API
+--migrations again
+dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations
