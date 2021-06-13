@@ -11,6 +11,20 @@ dotnet ef database drop -p Infrastructure -s API
 --migrations again
 dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations
 
+#Extensions
+C#
+C# Extensions
+Sqlite
+Nuget Package Manager
+Github pull request and issue
+Angular Language Service
+Angular Snippets
+Prettier - Code formatter
+Bracket Pair Colorizer 2
+TSLint
+
+
+
 1.install node js
 2.install angular cli
 sudo npm install -g @angular/cli
@@ -31,3 +45,5 @@ npm install @schematics/angular@9.1.0
 
 install font
 npm install font-awesome
+
+ng g -> generate c -> components [nav-bar -> name]
