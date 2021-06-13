@@ -1,3 +1,9 @@
+###Skynet Project
+Asp.net Core 5.0
+Angular 8
+Sqlite
+
+###Migration entity
 --remove migrations
 dotnet ef migrations remove -p Infrastructure -s API
 --drop databse
