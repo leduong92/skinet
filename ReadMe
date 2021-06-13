@@ -1,12 +1,49 @@
-###Skynet Project
+#Skynet Project
 Asp.net Core 5.0
 Angular 8
 Sqlite
 
-###Migration entity
+#Migration entity
 --remove migrations
 dotnet ef migrations remove -p Infrastructure -s API
 --drop databse
 dotnet ef database drop -p Infrastructure -s API
 --migrations again
 dotnet ef migrations add InitialCreate -p Infrastructure -s API -o Data/Migrations
+
+#Extensions
+C#
+C# Extensions
+Sqlite
+Nuget Package Manager
+Github pull request and issue
+Angular Language Service
+Angular Snippets
+Prettier - Code formatter
+Bracket Pair Colorizer 2
+TSLint
+
+
+
+1.install node js
+2.install angular cli
+sudo npm install -g @angular/cli
+
+Here's how I successfully upgraded from v0.8.18 to v0.10.20 without any other requirements like brew etc, (type these commands in the terminal):
+
+sudo npm cache clean -f (force) clear you npm cache
+sudo npm install -g n install n (this might take a while)
+sudo n stable upgrade to the current stable version
+
+ng serve: run client application
+
+
+--fix bug : An unhandled exception occurred: Cannot find module '@schematics/angular/utility/config'
+
+npm uninstall @schematics/angular
+npm install @schematics/angular@9.1.0
+
+install font
+npm install font-awesome
+
+ng g -> generate c -> components [nav-bar -> name]
