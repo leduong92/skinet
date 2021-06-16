@@ -47,3 +47,9 @@ install font
 npm install font-awesome
 
 ng g -> generate c -> components [nav-bar -> name]
+
+ng g -> generate m -> module [core -> name]
+
+ng g c shop --flat --skip-tests
+
+ng g s -> service shop --skip-tests --flat
